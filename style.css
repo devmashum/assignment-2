@@ -165,6 +165,33 @@ small {
     font-size: 15px;
 }
 
+/* We are Gamer Section Start */
+.we-are-gamer {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+
+.gamer-img {
+    width: 50%;
+    border: 1px solid red;
+
+}
+
+.gamer-img img {
+    width: 710px;
+    height: auto;
+}
+
+
+.gammer-text {
+    width: 50%;
+    border: 1px solid #ff42a5;
+    text-align: end;
+}
+
+/* We are Gamer Section End*/
 
 
 
@@ -217,9 +244,6 @@ small {
         padding: 30px;
     }
 
-
-
-
     .banner-text-section {
 
         width: 301px;
@@ -260,7 +284,6 @@ small {
 
 
     }
-
 
     .banner-images img {
         width: 310px;
