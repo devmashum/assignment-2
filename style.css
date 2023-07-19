@@ -170,12 +170,14 @@ small {
     background-color: aqua;
     display: flex;
     align-items: center;
+
 }
 
 
 .gamer-img {
     width: 50%;
     border: 1px solid red;
+    margin-right: 42px;
 
 }
 
@@ -189,6 +191,35 @@ small {
     width: 50%;
     border: 1px solid #ff42a5;
     text-align: end;
+}
+
+.gammer-text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gammer-text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gammer-button {
+    color: white;
+    background-color: violet;
+    padding: 21px 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.gammer-span {
+    font-weight: bold;
+    font-size: 30px;
 }
 
 /* We are Gamer Section End*/
