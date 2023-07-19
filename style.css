@@ -224,14 +224,45 @@ small {
 
 /* We are Gamer Section End*/
 
+/* Foto Collage start */
+.collage-text {
+    text-align: center;
+    font-size: 48px;
+}
+
+.collage-text p {
+    font-size: 16px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.collage-Foto {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: start;
+    padding: auto;
+}
+
+.collage-photo-pharagraph {
+    align-items: center;
+    font-size: 16px;
+
+}
 
 
-
-
-
-
-
-
+/* /* Foto Collage end */
 
 /* Mobile Device layout  */
 
@@ -380,6 +411,9 @@ small {
     .banner {
         margin-bottom: 0px;
     }
+
+    /* Gamer section End */
+
 
 
 
