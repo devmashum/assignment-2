@@ -167,16 +167,17 @@ small {
 
 /* We are Gamer Section Start */
 .we-are-gamer {
-    background-color: aqua;
+    background: linear-gradient(90deg, rgba(59, 10, 35, 0.03) 0%, rgba(125, 13, 71, 0.03) 100%);
     display: flex;
     align-items: center;
+    padding: 50px;
 
 }
 
 
 .gamer-img {
     width: 50%;
-    border: 1px solid red;
+
     margin-right: 42px;
 
 }
@@ -187,13 +188,12 @@ small {
 }
 
 
-.gammer-text {
+.gamer-text {
     width: 50%;
-    border: 1px solid #ff42a5;
     text-align: end;
 }
 
-.gammer-text h3 {
+.gamer-text h3 {
     font-size: 40px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -202,12 +202,12 @@ small {
     -webkit-text-fill-color: transparent;
 }
 
-.gammer-text p {
+.gamer-text p {
     font-size: 18px;
     font-weight: 400;
 }
 
-.gammer-button {
+.gamer-button {
     color: white;
     background-color: violet;
     padding: 21px 40px;
@@ -217,7 +217,7 @@ small {
     text-transform: uppercase;
 }
 
-.gammer-span {
+.gamer-span {
     font-weight: bold;
     font-size: 30px;
 }
@@ -282,10 +282,6 @@ small {
         margin-top: 200px;
         align-items: center;
 
-
-
-
-
     }
 
 
@@ -318,6 +314,71 @@ small {
 
     .banner-images img {
         width: 310px;
+    }
+
+
+    /* We are Gamer section start */
+
+    .we-are-gamer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .gamer-img {
+        width: 100%;
+
+        align-items: center;
+
+    }
+
+    .gamer-img img {
+        width: 380px;
+        height: 200px;
+        align-items: center;
+        border: none;
+        border: 50px;
+    }
+
+    .gamer-text {
+        width: 100%;
+        text-align: end;
+        text-align: center;
+        border: none;
+    }
+
+    .gamer-text h3 {
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+
+    .gamer-text p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .gamer-button {
+        color: white;
+        background-color: violet;
+        padding: 15px 30px;
+        border-radius: 40px;
+        border: none;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .gamer-span {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .banner {
+        margin-bottom: 0px;
     }
 
 
