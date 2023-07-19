@@ -412,6 +412,40 @@ small {
         margin-bottom: 0px;
     }
 
+    /* Photo-Collage */
+
+    .collage-text {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .funny-videos {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+
+    .collage-text p {
+        font-size: 12px;
+        margin-top: 15px;
+
+    }
+
+    .collage-Foto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+
+    }
+
+
     /* Gamer section End */
 
 
