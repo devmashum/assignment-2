@@ -262,6 +262,63 @@ small {
 }
 
 
+/* Movie -Banner section start */
+
+.movie-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.movie-banner-text {
+
+
+    margin-right: 200px;
+    width: 350px;
+    height: 450px;
+    align-items: center;
+}
+
+.movie-banner-text h3 {
+    font-size: 25px;
+    text-align: end;
+
+    font-size: 48px;
+    font-weight: 700;
+
+
+}
+
+.movie-banner-text p {
+    text-align: center;
+    font-size: 18px;
+
+    text-align: end;
+
+}
+
+.movie-header {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+}
+
+.movie-banner-relative {
+    position: relative;
+}
+
+.movie-banner-absolute {
+    position: absolute;
+    bottom: -50px;
+    left: -100px;
+}
+
+/* Movie -Banner section End */
+
+
 /* /* Foto Collage end */
 
 /* Mobile Device layout  */
@@ -345,6 +402,7 @@ small {
 
     .banner-images img {
         width: 310px;
+
     }
 
 
@@ -412,6 +470,8 @@ small {
         margin-bottom: 0px;
     }
 
+    /* Gamer section End */
+
     /* Photo-Collage */
 
     .collage-text {
@@ -445,8 +505,72 @@ small {
 
     }
 
+    /* Photo-Collage end */
 
-    /* Gamer section End */
+
+    /* Movie -Banner section start */
+
+    .movie-banner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .movie-banner-text {
+        width: 100%;
+        height: 230px;
+
+    }
+
+    .movie-banner-text h3 {
+        font-size: 15px;
+        text-align: center;
+
+        font-size: 25px;
+        font-weight: 700;
+
+
+    }
+
+    .movie-banner-text p {
+        text-align: center;
+        font-size: 18px;
+
+        text-align: center;
+
+    }
+
+    .movie-header {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 25px;
+    }
+
+    .movie-banner-relative {
+        position: relative;
+        width: Auto;
+        height: auto;
+        margin-left: 40px;
+        margin-right: 190px;
+    }
+
+    .movie-banner-absolute {
+        position: absolute;
+        bottom: -30px;
+        left: -80px;
+        width: auto;
+        height: auto;
+    }
+
+    /* Movie -Banner section End */
+
+
+
+
 
 
 
