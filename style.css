@@ -270,12 +270,12 @@ small {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    border: 2px solid red;
+
 }
 
 .movie-banner-text {
 
-    border: 2px solid red;
+
     margin-right: 200px;
     width: 350px;
     height: 450px;
@@ -309,9 +309,7 @@ small {
 
 }
 
-.movie-banner-img {
-    border: 2px solid red;
-}
+.movie-banner-img {}
 
 .movie-banner-relative-img {
     position: relative;
@@ -337,7 +335,7 @@ small {
 .careers-text {
     margin-left: 240px;
     width: auto;
-    padding-left: 200px;
+
 
 }
 
@@ -348,14 +346,15 @@ small {
 
 .careers-text p {
     font-size: 18px;
-
+    line-height: 1.5;
+    justify-content: center;
 
 }
 
 .careers-text-box {
     display: flex;
     justify-content: space-between;
-    line-height: 1.5;
+    line-height: 2.5;
 
 }
 
@@ -414,7 +413,7 @@ small {
 /* Footer  Section Start */
 
 footer {
-    background-color: rgb(216, 201, 201);
+    background-color: #f2b6dd;
     padding-top: 60px;
     padding-bottom: 60px;
 }
