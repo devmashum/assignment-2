@@ -335,7 +335,7 @@ small {
 
 .careers-text {
     margin-left: 240px;
-    width: 50%;
+    width: 70%;
 
 }
 
@@ -357,15 +357,17 @@ small {
 .careers-text-box1 {
     margin-right: 30px;
     font-size: 25px;
+    font-weight: 600;
 }
 
 .careers-text-box2 {
     font-size: 25px;
     text-align: right;
+    font-weight: 600;
 }
 
 .careers-image {
-    width: 50%;
+    width: 30%;
     margin-left: 30px;
 }
 
