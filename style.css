@@ -411,16 +411,16 @@ small {
     margin-right: 38px;
 }
 
-/* Icon section end */
+/* Footer  Section Start */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 
-/* Career Section End */
-
-/* Movie -Banner section End */
-
-
-/* /* Foto Collage end */
 
 /* Mobile Device layout  */
 
@@ -674,22 +674,23 @@ small {
         width: auto;
         height: auto;
     }
+}
 
-    /* Movie -Banner section End */
-
-
-
+/* Movie -Banner section End */
 
 
 
 
 
 
-    /* Mobile Device layout ended here */
 
-    /* Tablet Device Layout Starts */
 
-    /* @media screen and (min-width:375px) and (max-width:768) {
+
+/* Mobile Device layout ended here */
+
+/* Tablet Device Layout Starts */
+
+/* @media screen and (min-width:375px) and (max-width:768) {
     .nav-main {
         flex-direction: column;
     }
@@ -723,4 +724,4 @@ small {
 
 
 } */
-    /* Tablet Device Layout ended here */
+/* Tablet Device Layout ended here */
