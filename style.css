@@ -10,6 +10,12 @@
         sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
+
+
 
 
 /* Shared Style ended here*/
@@ -85,7 +91,7 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px;
+
 
 
 }
@@ -93,7 +99,7 @@ ul li {
 .banner-text-section {
 
     width: 100%;
-    padding: 50px;
+    padding: 90px;
     background-image: url("images/Group\ 14.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -250,10 +256,10 @@ small {
 
 .collage-Foto {
     display: flex;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 10px;
     text-align: start;
-    padding: auto;
+    padding: 25px;
 }
 
 .collage-photo-pharagraph {
@@ -323,68 +329,53 @@ small {
 
 
 /* Careers Section start */
-.careers {
+
+.Careers {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F948B2;
-    margin-top: 100px;
+    margin-top: 150px;
+    background-color: #cf6ea8;
+    padding: 80px;
+}
+
+
+.career-block {
+    display: flex;
+    gap: 20px;
+    line-height: 1.8;
+}
+
+.career-block2 {
+    text-align: right;
+
+}
+
+.career-header-p {
+    margin-left: 220px;
     color: white;
 }
 
-.careers-text {
-    margin-left: 240px;
-    width: auto;
-
-
-}
-
-.careers-text h3 {
+.career-header-p h3 {
     font-size: 48px;
-    font-weight: 700;
 }
 
-.careers-text p {
-    font-size: 18px;
+.career-header-p p {
     line-height: 1.5;
-    justify-content: center;
-
 }
 
-.careers-text-box {
-    display: flex;
-    justify-content: space-between;
-    line-height: 2.5;
+.career-button {
 
-}
-
-.careers-text-box1 {
-    margin-right: 30px;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.careers-text-box2 {
-    font-size: 25px;
-    text-align: right;
-    font-weight: 600;
-}
-
-.careers-image {
-    width: 50%;
-    margin-left: 30px;
-}
-
-.careers-button {
     color: #F948B2;
-    background-color: white;
-    padding: 30px;
-    border-radius: 40px;
     border: none;
+    padding: 25px;
+    border-radius: 48px;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-top: 40px;
 }
+
+
 
 /* Icon section start */
 .icon-section {
