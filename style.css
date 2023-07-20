@@ -755,6 +755,17 @@ a {
         width: 30px;
         height: 30px;
     }
+
+    .career-button {
+
+        color: #F948B2;
+        border: none;
+        padding: 15px;
+        border-radius: 48px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
 }
 
 
