@@ -379,11 +379,12 @@ small {
 
 /* Icon section start */
 .icon-section {
-    margin: 130px 300px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 60px;
 
 
 }
@@ -395,10 +396,15 @@ small {
 }
 
 .icon p {
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 10px;
     font-weight: 600px;
     margin-right: 38px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
 }
 
 /* Footer  Section Start */
