@@ -235,6 +235,7 @@ small {
     margin-top: -40px;
     margin-bottom: 40px;
 
+
 }
 
 .funny-videos {
@@ -250,7 +251,7 @@ small {
 .collage-Foto {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     text-align: start;
     padding: auto;
 }
@@ -335,7 +336,8 @@ small {
 
 .careers-text {
     margin-left: 240px;
-    width: 70%;
+    width: auto;
+    padding-left: 200px;
 
 }
 
@@ -346,12 +348,15 @@ small {
 
 .careers-text p {
     font-size: 18px;
+
+
 }
 
 .careers-text-box {
     display: flex;
     justify-content: space-between;
     line-height: 1.5;
+
 }
 
 .careers-text-box1 {
@@ -367,7 +372,7 @@ small {
 }
 
 .careers-image {
-    width: 30%;
+    width: 50%;
     margin-left: 30px;
 }
 
@@ -375,9 +380,40 @@ small {
     color: #F948B2;
     background-color: white;
     padding: 30px;
-    border-radius: 25px;
+    border-radius: 40px;
     border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
+
+/* Icon section start */
+.icon-section {
+    margin: 130px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon p {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 600px;
+    margin-right: 38px;
+}
+
+/* Icon section end */
+
+
 
 /* Career Section End */
 
